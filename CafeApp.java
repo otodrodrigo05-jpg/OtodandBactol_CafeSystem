@@ -33,6 +33,8 @@ public class CafeApp {
         order1.addItem(adobo);
         order1.addItem(cookie); // fourth item: should be rejected
         order1.printReceipt();
+        
+        System.out.println();
 
         // --- Order 1002: default constructors filled by setters ---
         Beverage hotChoc = new Beverage();
